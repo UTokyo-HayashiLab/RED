@@ -92,7 +92,7 @@ Katsuhiko Hayashi, RED: a recombination-aware edit distance for parental origin 
 
 ## License
 
-This work (including both the paper and the accompanying code) is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+This source code is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
 You are free to share and adapt this work, provided that proper attribution is given.  
 When using this work in research papers, software, or derivative projects, please include a citation or reference to:

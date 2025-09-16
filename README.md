@@ -16,7 +16,7 @@ Key advantages:
 - `red.c` — RED implementation 
 - `red_band.c` — Band-limited RED for faster runtime  
 - `bootscan.c` — Bootscan baseline  
-- `eval_red.py` — Evaluation script for accuracy, precision, recall, F1, MAE  
+- `eval.py` — Evaluation script for accuracy, precision, recall, F1, MAE  
 
 ## Usage
 1. Compile Bootscan, RED and RED-Band:
@@ -87,7 +87,7 @@ Key advantages:
 
 ## Citation
 
-Katsuhiko Hayashi, RED: a recombination-aware extension of edit distance for accurate breakpoint detection, [in preparation].
+Katsuhiko Hayashi, RED: a recombination-aware edit distance for parental origin tracing in mosaic genomes, [in preparation].
 
 
 ## License

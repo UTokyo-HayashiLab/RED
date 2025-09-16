@@ -1,4 +1,4 @@
-// red_band.c : RED-B with Ukkonen-style banding (unary-bias guided)
+// red_band.c : RED with Ukkonen-style banding (unary-bias guided)
 // Author: Katsuhiko Hayashi
 // CLI: same flags as red.c (+ --band). Supports --mismatch (sets mu-eq = mu-inf).
 // Outputs:
@@ -422,7 +422,7 @@ static void write_outputs(const char*outprefix, const char*child_name,
                           const Pre*pr, const PathOut*po)
 {
   char path_orig[1024], path_sum[1024];
-  child_name = "";
+  child_name = "red_band";
   snprintf(path_orig,sizeof(path_orig), "%s.%s.origins.tsv", outprefix, child_name);
   snprintf(path_sum, sizeof(path_sum ), "%s.%s.summary.tsv", outprefix, child_name);
 

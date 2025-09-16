@@ -32,10 +32,10 @@ Key advantages:
    gcc -O3 -o red_band red_band.c
 
 2. Running examples
-
+   ```bash
    unzip 1200_synthetic_eval_varied.zip
    cd 1200_synthetic_eval_varied/sample_1
-
+    
    # Run RED on sample_1
    ./../../red \
     --parents-aln parents.aligned.fasta \
@@ -79,6 +79,7 @@ Key advantages:
     --reward      0
 
 3. Evaluation
+   ```bash
    python eval.py \
    --red-origins 1200_synthetic_eval_varied/sample_1/sample_1_red.red.origins.tsv \
    --truth-breaks 1200_synthetic_eval_varied/sample_1/truth.breakpoints.json \
